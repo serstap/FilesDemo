@@ -34,10 +34,7 @@ public abstract class Files {
         return "name='" + name + '\'' +
                 ", size=" + size;
     }
-        /*public void print() {
-        System.out.println("File name" + name + size);
 
-    }*/
 
     public static void printAll(Files[] pp) {
         for(Files p: pp) {
